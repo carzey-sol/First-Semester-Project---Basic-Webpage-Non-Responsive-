@@ -1,0 +1,324 @@
+@font-face {
+    font-family: ITCBauhausBold;
+    src: url(./fonts/ITC\ Bauhaus\ Bold.ttf);
+}
+
+@font-face {
+    font-family: BauhausLightRegular;
+    src: url(./fonts/Bauhaus\ Light\ Regular.ttf);
+}
+
+/* CSS FOR NAVIGATION  */
+body{
+    background-color: black;
+    
+}
+
+header{
+    
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.nav{
+    display: flex;
+    
+}
+.nav-img img{
+    height: 25px;
+    margin-right: 20px;
+}
+.logo{
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.nav-items{
+    padding-top: 5px; 
+    
+}
+
+header span {
+    font-family: ITCBauhausBold;
+    font-size: 18px;
+}
+
+
+.nav span a {
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    font-family: BauhausLightRegular;
+}
+
+.nav ul li a {
+    text-decoration: none;
+}
+
+
+/* CSS FOR FIRST PAGE */
+.first-page{
+    font-family: ITCBauhausBold;
+    background-color: black;
+}
+.first-page ul{
+    text-align: center;
+   
+}
+.first-page ul li{
+
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+    color: #E7A615;
+    
+}
+.first-page img{
+    width: 100%;
+    height: 100%;
+}
+.first-page p{
+    color: #E7A615;
+    margin-top: 30px;
+    text-align: center;
+    font-family: BauhausLightRegular;
+
+}
+/*second page styling*/
+.second-page{
+    background-color: black;
+    color: white; 
+    font-family: BauhausLightRegular;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
+    
+}
+.content{
+    display: flex;
+    
+    
+}
+.tuf-a15{
+    margin-left: 300px;
+}
+.tuf-f15{
+    margin-left: 300px;
+}
+/*image resizing*/
+.dash-f15 img{
+        width: 300px;
+} 
+.tuf-a15 img{
+    width: 300px;
+}
+.tuf-f15 img{
+      width: 300px;
+}
+/*h2 tags styling*/
+.tuf-a15 h2{
+    margin-top: -30px;
+    font-size: 20px;
+    text-align: center;
+}
+.tuf-f15 h2{
+    margin-top: -30px;
+    font-size: 20px;
+    text-align: center;
+}
+.dash-f15 h2{
+    margin-top: -30px;
+    font-size: 20px;
+    text-align: center;
+}
+/*ui tags styling*/
+.dash-f15 ul{
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: left;
+}
+.tuf-a15 ul{
+    margin-top: 20px;
+    text-align: center;
+}
+.tuf-f15 ul{
+    margin-top: 20px;
+    margin-right: 50px;
+    text-align: right;
+}
+/*li tags styling*/
+.dash-f15 ul li{
+    margin-top: 5px;
+}
+.tuf-a15 ul li{
+    margin-top: 5px; 
+}
+.tuf-f15 ul li{
+    margin-top: 5px; 
+}
+/*3rd page styling*/
+.third-page{
+    font-family: BauhausLightRegular;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #B7B5B5;
+    
+}
+.third-page img{
+    width: 300px;
+    height: 300px;
+}
+/*div alignment and styling*/
+.k7{
+    margin-left: 30px;
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+.tuf-combo{
+    margin-left: 300px;
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+.rog-claymore{
+    margin-left: 200px;
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+/*text alignment inside divs*/
+.k7 h1{
+  text-align: center;
+  margin-top: 2px;
+}
+.k7 p{
+    text-align: center;
+    margin-top: 10px;
+    color: #E7A615;
+}
+.tuf-combo h1{
+    text-align: center;
+    margin-top: 2px;
+}
+.tuf-combo p{
+    text-align: center;
+    margin-top: 10px;
+    color: #E7A615;
+}
+.rog-claymore h1{
+    text-align: center;
+    margin-top: 2px;
+}
+.rog-claymore p{
+    text-align: center;
+    margin-top: 10px;
+    color: #E7A615;
+}
+/*footer*/
+footer{
+    background-color: white;
+    color: black;
+}
+footer .footer-title span{
+   font-family: ITCBauhausBold;
+   font-size: 20px;
+   margin-left: 20px;
+}
+.footer-title{
+    display: inline-block;
+}
+.first-divider{
+    display: inline-block;
+    margin-left: 50px;
+}
+.second-divider{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+
+.contact-text{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: BauhausLightRegular;
+}
+.social{
+    
+    margin-left: 600px;
+    margin-top: -30px;
+}
+.social img{
+    width: 30px;
+    height: 30px;
+}
+.asus-ftr-logo{
+    display: inline;
+    
+}
+.asus-ftr-logo img{
+    width: 100px;
+    margin-left: 1400px;
+    margin-top: -100px;
+}
+/*popup*/
+.login-popup{
+    background-color: #B7B5B5;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    margin-top: 100px;
+    margin-left: 384px;
+    visibility: hidden;
+}
+.login-popup .close img{
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.login-popup img{
+    width: 100px;
+    height: 100px;
+    margin-left: 45%;
+    margin-top: -60px;
+    }
+.inputs input[type='text'],.inputs input[type='password']{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 15px 100px 15px 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family:  BauhausLightRegular;
+    
+}
+.inputs input[type="submit"]{
+    margin: 20px auto;
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+    font-family:  BauhausLightRegular;
+}
+.not-registered p{
+    font-family:  BauhausLightRegular;
+    color: black;
+}
+.not-registered p a{
+  text-decoration: none;
+  color: #ff7300;
+}
+/*making interactive*/
